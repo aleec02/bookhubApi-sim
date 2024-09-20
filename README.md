@@ -18,3 +18,9 @@ Next (Dependencies) Spring Boot
 - Lombok
 - Spring Boot DevTools
 - Validation
+
+## layers to code 
+- controller
+- sevice
+- repository
+
