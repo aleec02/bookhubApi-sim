@@ -34,4 +34,17 @@ public class Book {
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id", referencedColumnName = "id",
+            foreignKey = @ForeignKey(name = "FK_books_categories"))
+    private Category category;
+
+    @ManyToOne
+    @JoinColumn(name = "author_id", referencedColumnName = "id",
+            foreignKey = @ForeignKey(name = "FK_books_authors"))
+    private Author author;
+
 }
