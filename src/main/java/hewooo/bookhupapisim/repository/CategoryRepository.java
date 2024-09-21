@@ -1,5 +1,8 @@
 package hewooo.bookhupapisim.repository;
 
-public interface CategoryRepository {
-    void hello();
+import hewooo.bookhupapisim.model.entity.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Integer> {
+
 }
