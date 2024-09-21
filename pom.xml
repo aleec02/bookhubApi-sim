@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>hewooo</groupId>
-    <artifactId>bookhup-api-sim</artifactId>
+    <artifactId>bookhupApi-sim</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bookhup-api-sim</name>
     <description>bookhup-api-sim</description>
