@@ -24,3 +24,7 @@ git checkout -b develop
 ```
 git push origin develop
 ```
+
+```
+git push origin feature/<feature-name>
+```
