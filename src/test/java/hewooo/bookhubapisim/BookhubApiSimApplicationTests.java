@@ -1,10 +1,10 @@
-package hewooo.bookhupapisim;
+package hewooo.bookhubapisim;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookhupApiSimApplicationTests {
+class BookhubApiSimApplicationTests {
 
     @Test
     void contextLoads() {
