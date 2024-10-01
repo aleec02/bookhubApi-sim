@@ -1,13 +1,13 @@
-package hewooo.bookhupapisim;
+package hewooo.bookhubapisim;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookhupApiSimApplication {
+public class BookhubApiSimApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BookhupApiSimApplication.class, args);
+        SpringApplication.run(BookhubApiSimApplication.class, args);
     }
 
 }
